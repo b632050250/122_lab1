@@ -5,6 +5,7 @@ int main()
     while(i<12)
     {
         printf("%d",i);
+        i++;
     }
     return 0;
 }
