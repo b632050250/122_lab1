@@ -4,7 +4,7 @@ int main()
     int i=3;
     while(i<12)
     {
-        printf("%d",i);
+        printf("%d ",i);
         i++;
     }
     return 0;
