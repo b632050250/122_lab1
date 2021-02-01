@@ -1,11 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int i=3;
-    while(i<12)
-    {
-        printf("%d ",i);
-        i++;
-    }
+    unsigned long long int N;
+    scanf("%llu",&N);
+    printf("%llu %llu",N%3,N%11);
     return 0;
 }
